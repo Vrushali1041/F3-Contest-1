@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.container{
+    padding: 2rem;
+    background-color: #000000;
+    width: 94vw;
+    height: 88vh;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form label{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.form input{
+    border-color: #fff;
+    border-width: 1px;
+    background-color: #000000;
+    width: 350px;
+    height: 25px;
+    color: #FFF;
+}
+
+#add-user{
+   margin-top: 1.5rem;
+   width: 10rem;
+   height: 2rem;
+}
+
+#error-msg{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    display: none;
+}
+
+.added-emp{
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.employeesList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 15px;
+    /* border: 1px solid white; */
+    padding: 10px 0px;
+
+}
+.employeesList>p{
+    color: #ffffff50;
+}
+.emp-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    width: fit-content;
+}
+.details{
+    border: 1px solid white;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 25px;
+    border-radius: 6px;
+}
+#del-btn{
+
+    padding: 6px 20px;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+}
+
